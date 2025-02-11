@@ -6,7 +6,7 @@ import (
 	"crypto/sha256"
 	"encoding/json"
 	"fmt"
-	"goblockchain/utils"
+	"go_block_chain/37_transaction_sync/utils"
 	"log"
 	"net/http"
 	"strings"

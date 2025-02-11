@@ -5,7 +5,7 @@ import (
 	"crypto/sha256"
 	"encoding/json"
 	"fmt"
-	"goblockchain/utils"
+	"go_block_chain/36_registor_neighbors/utils"
 	"log"
 	"strings"
 	"sync"

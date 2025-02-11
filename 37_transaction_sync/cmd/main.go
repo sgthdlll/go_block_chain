@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"goblockchain/utils"
+	"go_block_chain/37_transaction_sync/utils"
 )
 
 func main() {

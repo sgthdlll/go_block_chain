@@ -4,10 +4,9 @@ import (
 	"bytes"
 	"crypto/ecdsa"
 	"crypto/sha256"
-	"encoding/hex"
 	"encoding/json"
 	"fmt"
-	"goblockchain/utils"
+	"go_block_chain/39_valid_chain/utils"
 	"log"
 	"net/http"
 	"strings"
@@ -267,6 +266,7 @@ func (bc *Blockchain) Mining() bool {
 	previousHash := bc.LastBlock().Hash()
 	bc.CreateBlock(nonce, previousHash)
 	log.Println("action=mining, status=success")
+	return true
 }
 
 func (bc *Blockchain) StartMining() {

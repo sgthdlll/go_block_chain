@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"goblockchain/utils"
+	"go_block_chain/36_registor_neighbors/utils"
 )
 
 func main() {

@@ -2,9 +2,9 @@ package main
 
 import (
 	"encoding/json"
-	"goblockchain/block"
-	"goblockchain/utils"
-	"goblockchain/wallet"
+	"go_block_chain/36_registor_neighbors/block"
+	"go_block_chain/36_registor_neighbors/utils"
+	"go_block_chain/36_registor_neighbors/wallet"
 	"io"
 	"log"
 	"net/http"
@@ -98,6 +98,7 @@ func (bcs *BlockchainServer) Transactions(w http.ResponseWriter, req *http.Reque
 		io.WriteString(w, string(m))
 	case http.MethodDelete:
 		bc := bcs.GetBlockchain()
+		bc = bc
 
 	default:
 		log.Println("ERROR: Invalid HTTP Method")

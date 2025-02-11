@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"goblockchain/block"
-	"goblockchain/wallet"
+	"go_block_chain/19_verify/block"
+	"go_block_chain/19_verify/wallet"
 	"log"
 )
 

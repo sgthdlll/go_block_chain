@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"goblockchain/wallet"
+	"go_block_chain/17_blockchain_address/wallet"
 	"log"
 )
 

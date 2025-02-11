@@ -1,8 +1,8 @@
 package main
 
 import (
-	"goblockchain/block"
-	"goblockchain/wallet"
+	"go_block_chain/22_wallet_server/block"
+	"go_block_chain/22_wallet_server/wallet"
 	"io"
 	"log"
 	"net/http"

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"goblockchain/block"
-	"goblockchain/wallet"
+	"go_block_chain/27_ecdsa_convert/block"
+	"go_block_chain/27_ecdsa_convert/wallet"
 	"io"
 	"log"
 	"net/http"

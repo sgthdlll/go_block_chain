@@ -1,9 +1,9 @@
 package utils
 
 import (
-	"crypto/ecdsa"
-	"crypto/elliptic"
-	"encoding/hex"
+	_ "crypto/ecdsa"
+	_ "crypto/elliptic"
+	_ "encoding/hex"
 	"fmt"
 	"math/big"
 )

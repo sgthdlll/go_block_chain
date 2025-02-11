@@ -2,9 +2,8 @@ package main
 
 import (
 	"encoding/json"
-	"fmt"
-	"goblockchain/utils"
-	"goblockchain/wallet"
+	"go_block_chain/27_ecdsa_convert/utils"
+	"go_block_chain/27_ecdsa_convert/wallet"
 	"html/template"
 	"io"
 	"log"
@@ -74,6 +73,7 @@ func (ws *WalletServer) CreateTransaction(w http.ResponseWriter, req *http.Reque
 
 		publicKey := utils.PublicKeyFromString(*t.SenderPublicKey)
 		privateKey := utils.PrivateKeyFromString(*t.SenderPrivateKey, publicKey)
+		privateKey = privateKey
 		value, err := strconv.ParseFloat(*t.Value, 32)
 		if err != nil {
 			log.Println("ERROR: parse error")
@@ -81,6 +81,7 @@ func (ws *WalletServer) CreateTransaction(w http.ResponseWriter, req *http.Reque
 			return
 		}
 		value32 := float32(value)
+		value32 = value32
 
 		w.Header().Add("Content-Type", "application/json")
 

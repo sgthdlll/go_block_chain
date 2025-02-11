@@ -1,7 +1,7 @@
 package main
 
 import (
-	"goblockchain/wallet"
+	"go_block_chain/24_wallet/wallet"
 	"html/template"
 	"io"
 	"log"

@@ -2,9 +2,8 @@ package main
 
 import (
 	"encoding/json"
-	"fmt"
-	"goblockchain/utils"
-	"goblockchain/wallet"
+	"go_block_chain/26_json_decode/utils"
+	"go_block_chain/26_json_decode/wallet"
 	"html/template"
 	"io"
 	"log"

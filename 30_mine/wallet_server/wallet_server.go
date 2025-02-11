@@ -3,9 +3,9 @@ package main
 import (
 	"bytes"
 	"encoding/json"
-	"goblockchain/block"
-	"goblockchain/utils"
-	"goblockchain/wallet"
+	"go_block_chain/30_mine/block"
+	"go_block_chain/30_mine/utils"
+	"go_block_chain/30_mine/wallet"
 	"html/template"
 	"io"
 	"log"

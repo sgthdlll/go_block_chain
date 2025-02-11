@@ -5,7 +5,7 @@ import (
 	"crypto/sha256"
 	"encoding/json"
 	"fmt"
-	"goblockchain/utils"
+	"go_block_chain/30_mine/utils"
 	"log"
 	"strings"
 	"time"

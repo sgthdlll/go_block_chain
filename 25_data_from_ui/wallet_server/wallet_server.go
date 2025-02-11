@@ -1,10 +1,10 @@
 package main
 
 import (
-	"encoding/json"
-	"fmt"
-	"goblockchain/utils"
-	"goblockchain/wallet"
+	_ "encoding/json"
+	_ "fmt"
+	"go_block_chain/25_data_from_ui/utils"
+	"go_block_chain/25_data_from_ui/wallet"
 	"html/template"
 	"io"
 	"log"

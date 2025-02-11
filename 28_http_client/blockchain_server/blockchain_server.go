@@ -1,10 +1,8 @@
 package main
 
 import (
-	"encoding/json"
-	"goblockchain/block"
-	"goblockchain/utils"
-	"goblockchain/wallet"
+	"go_block_chain/28_http_client/block"
+	"go_block_chain/28_http_client/wallet"
 	"io"
 	"log"
 	"net/http"
